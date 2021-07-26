@@ -1,0 +1,264 @@
+/*The natural or the predefined margin was removed*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* In the navigation section the unordered list, anchor tag decoration was removed and then the list element was giving an inline display, the navigation tag was moved to the left using positioning */
+
+div.nav-section {
+    text-align: center;
+}
+
+
+.nav-section li {
+    display: inline;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.nav-section nav {
+    position: relative;
+    left: 27rem;
+    padding: 20px;
+}
+
+.nav-section {
+    background-color: #e8ffff;
+}
+
+.nav-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-section ul a {
+    text-decoration: none;
+    color: #1a508b;
+    font-size: 20px;
+}
+
+.nav-section ul a:hover {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+/*In the first section the image was floated to the left, it was given a border radius and the text where aligned to the center*/
+
+.first-section {
+    background-color: #e8ffff;
+    padding: 20px;
+    text-align: center;
+}
+
+#bio-image {
+    float: left;
+    margin-right: 0px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+/*The thematic break was given a border which was decorated to few dotts*/
+hr {
+    border-style: dotted;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 10px;
+    width: 10%;
+}
+
+/*The p, h1, h2 and h3 elements was given a general fonts design*/
+p {
+    font-family: 'Open Sans', sans-serifs;
+    line-height: 2;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+h3 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+}
+
+
+/*The second section which was the about me section (bio,goals,skills,and hobbies) i added some images which i floated with the text and also centered the section within the containing box using width and margin*/
+
+div#About-me {
+    width: 800px;
+    margin: auto;
+}
+
+
+.skills {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 6px;
+}
+
+
+.image-skill {
+    float: right
+}
+
+.bio {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 6px;
+}
+
+.bio-me {
+    float: left;
+    margin-bottom: 170px;
+}
+
+
+.hobbies {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 6px;
+}
+
+img.hobby {
+    float: left;
+    margin-bottom: 80px;
+}
+
+/*The third section talked about my goals, i used an image which i floated, added a background color and some fonts to the list elements*/
+
+.goal-image {
+    float: left;
+}
+
+div#goal {
+    background-color: #e8ffff;
+}
+
+.third-section {
+    background-color: #e8ffff;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+}
+
+.major {
+    margin-top: 110px;
+}
+
+.third-section ul {
+    list-style-position: inside;
+}
+
+.third-section li {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+/*In the fourth section i created a form using thr form element, input element and the label element along side with the textarea to create the contact form */
+
+.fourth-section {
+    padding: 20px;
+    display: flex;
+}
+
+.cont {
+    background-color: #f4f9f9;
+    width: 800px;
+    margin: auto;
+}
+
+div#contact-container {
+    text-align: center;
+    background-color: #f4f9f9;
+}
+
+
+label {
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input[type=text] {
+    width: 500px;
+    margin: 10px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Merriweather', serif;
+    background-color: #e8ffff;
+    color: black;
+}
+
+input[type=submit] {
+    width: 200px;
+    height: 40px;
+    background-color: #e8ffff;
+    font-family: 'Merriweather', serif;
+    border-radius: 20px;
+}
+
+input:hover[type="submit"] {
+    cursor: pointer;
+    color: black;
+}
+
+#sophie:hover{
+    color: black;
+}
+
+
+textarea {
+    font-family: 'Merriweather', serif;
+    background-color: #e8ffff;
+    color: black;
+    margin-bottom: 20px;
+    /*flex-direction: row;*/
+}
+
+/*In the footer section i added an icon that navigates to my social media account*/
+
+.footer {
+    padding: 50px;
+    background-color: #f4f9f9;
+    margin: 0;
+    text-align: center;
+}
+
+.footer a {
+    margin: 40px;
+
+}
+
+.fab:hover {
+    color: black;
+}
+
+.fas:hover {
+    color: black;
+}
+
+.great {
+    text-decoration: none;
+    font-size: 20px;
+}
